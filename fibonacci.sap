@@ -1,0 +1,17 @@
+# Addr    Binary     Mnemonic
+  0x00  0b01110001 # LDI 0x1
+  0x01  0b01001110 # STA [0xe]
+  0x02  0b01110000 # LDI 0
+  0x03  0b01010000 # OUT
+  0x04  0b00101110 # ADD [0xe]
+  0x05  0b01001111 # STA [0xf]
+  0x06  0b00011110 # LDA [oxe]
+  0x07  0b01001101 # STA [0xd]
+  0x08  0b00011111 # LDA [0xf]
+  0x09  0b01001110 # STA [0xe]
+  0x0a  0b00011101 # LDA [0xd]
+  0x0b  0b01100011 # JC 0x0
+  0x0c  0b00000000 # DATA 0
+  0x0d  0b00000000 # DATA 0
+  0x0e  0b00000000 # DATA 0
+  0x0f  0b00000000 # DATA 0
