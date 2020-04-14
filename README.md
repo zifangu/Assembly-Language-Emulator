@@ -1,5 +1,7 @@
 # Assembly-Language-Emulator
 
+A python program that emulates some operations in assembly language.
+
 Usage:
   
   python3 main.py [--trace] [--pause] sap-filename
